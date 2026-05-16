@@ -4,3 +4,4 @@ flask-limiter
 openai
 python-dotenv
 tiktoken
+gunicorn

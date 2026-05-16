@@ -2,15 +2,41 @@
 
 A premium, modern AI chatbot application built with Flask, OpenAI, and a sleek glassmorphism frontend.
 
-## Features
+## Interface Preview
 
-- **Modern UI**: ChatGPT-style dark mode with premium aesthetics.
-- **Streaming Responses**: Real-time message streaming from OpenAI.
-- **Multiple Sessions**: Create, switch, and delete chat sessions.
-- **Rich Content**: Full Markdown and syntax-highlighted code block support.
-- **Voice Input**: Integrated Web Speech API for voice-to-text.
-- **Responsive**: Fully optimized for mobile and desktop.
-- **Security**: Environment variable management and rate limiting.
+![SimSit AI Interface](static/assets/interface.png)
+
+## 🚀 Free Deployment Guide
+
+You can host **SimSit AI** for free using these platforms:
+
+### 1. Render (Recommended)
+- **Ease of use**: Very high.
+- **Auto-deploy**: Pushes automatically when you update GitHub.
+- **Setup**:
+  - Connect GitHub.
+  - Set Build Command: `pip install -r requirements.txt`
+  - Set Start Command: `gunicorn app:app`
+  - Add your `OPENAI_API_KEY` in the Environment tab.
+
+### 2. Railway
+- **Ease of use**: High.
+- **Setup**:
+  - Connect GitHub.
+  - Railway will auto-detect the Flask app.
+  - Add your Environment Variables in the "Variables" tab.
+
+### 3. PythonAnywhere
+- **Best for**: Permanent simple hosting.
+- **Note**: Requires a slightly different setup for the WSGI file, but supports Flask perfectly.
+
+---
+
+## 🛠️ Features
+- **Modern UI**: Dark mode with premium glassmorphism effects.
+- **Fast Inference**: Powered by Groq and Llama 3.
+- **Session Support**: Save and manage multiple chat histories.
+- **Responsive**: Works on mobile and desktop.
 
 ## Setup Instructions
 
