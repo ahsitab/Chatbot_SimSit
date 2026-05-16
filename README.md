@@ -1,6 +1,8 @@
 # SimSit AI
 
-A premium, modern AI chatbot application built with Flask, OpenAI, and a sleek glassmorphism frontend.
+🚀 **Live Demo**: [https://chatbot-simsit.onrender.com/](https://chatbot-simsit.onrender.com/)
+
+A premium, modern AI chatbot application built with Flask, OpenAI-compatible APIs (Groq), and a sleek glassmorphism frontend.
 
 ## Interface Preview
 
